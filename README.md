@@ -30,7 +30,7 @@ The code:
 
 The result in terminal:
 
-![screenshot](./code.png)
+![screenshot](./screenshot-result.jpeg)
 
 👤 **Miguel Ricaño*
 
