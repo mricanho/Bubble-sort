@@ -18,7 +18,7 @@ def bubble_sort(arr)
   number_ofloop = arr.length - 1 # loop inside the index
   (0..number_ofloop).each do |_i| # the first outside loop
     (0...number_ofloop).each do |j| # the inside loop
-        arr[j], arr[j + 1] = arr[j + 1], arr[j] if arr[j] > arr[j + 1] # replacement of the elements
+      arr[j], arr[j + 1] = arr[j + 1], arr[j] if arr[j] > arr[j + 1] # replacement of the elements
     end
   end
   arr
@@ -32,9 +32,7 @@ def bubble_sort_by(arr)
   number_ofloop = arr.length - 1 # loop inside the index not the length
   (0..number_ofloop).each do |_i|
     (0...number_ofloop).each do |j|
-      if arr[j].length > arr[j + 1].length # compare between lengths of the texts
-        arr[j], arr[j + 1] = arr[j + 1], arr[j]
-      end
+      arr[j], arr[j + 1] = arr[j + 1], arr[j] if arr[j].length > arr[j + 1].length # compare between lengths of the texts
     end
   end
   arr
