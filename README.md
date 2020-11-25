@@ -22,7 +22,7 @@ git clone https://github.com/mricanho/Bubble-sort
 After cloning open the file and write in terminal :
 
 ```bash 
-cd ruby main.rb
+ ruby main.rb
 ```
 The code:
 
