@@ -13,7 +13,7 @@
 # end
 # puts bubble_sort([3, 2, 1, 85, 1, 58, 6, 4])
 
-# Another way to slove it:
+# Another way to solve it:
 def bubble_sort(arr)
   number_ofloop = arr.length - 1 # loop inside the index
   (0..number_ofloop).each do |_i| # the first outside loop
